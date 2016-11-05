@@ -9,6 +9,11 @@ body {
     background-color: #DED2CE;
 }
 
+#body-container {
+    height: 100%;
+    width: 100%;
+}
+
 
 
 /***************************************************************************
@@ -49,10 +54,12 @@ header {
 
 #name {
     font-size: 3em;
+    text-align: center;
 }
 
 #title {
     font-size: 2em;
+    text-align: center;
 }
 
 footer {

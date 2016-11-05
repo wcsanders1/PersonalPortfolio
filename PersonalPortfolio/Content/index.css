@@ -1,0 +1,36 @@
+﻿/***************************************************************************
+        CELL-PHONE SIZE
+***************************************************************************/
+
+#content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-header {
+    text-align: center;
+}
+
+
+
+/***************************************************************************
+        PAGE-SIZE 2
+***************************************************************************/
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    #content-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #do-column,
+    #doing-column {
+        flex-basis: 50%;
+    }
+
+    #done-column {
+        flex-basis: 100%;
+    }
+}
