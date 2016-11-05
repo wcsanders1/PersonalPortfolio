@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="william sanders web developer portfolio" />
+    <meta name="keywords" content="william sanders portfolio developer programmer web" />
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">  @*font-family: 'Droid Sans', sans-serif;*@
+
+    <link href="~/Content/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/site.css" rel="stylesheet" type="text/css" />
+
+    <title>William Sanders | Developer</title>
+</head>
+<body>
+    <header>
+        <div class="header-text-line-container">
+            <div class="header-line left-header-line"></div>
+            <p id="name">William Sanders</p>
+            <div class="header-line right-header-line"></div>
+        </div>
+        <div class="header-line" id="center-header-line"></div>
+        <div class="header-text-line-container">
+            <div class="header-line left-header-line"></div>
+            <p id="title">Software Developer</p>
+            <div class="header-line right-header-line"></div>
+        </div>
+        <div id="introduction">
+            <p>I'm a pretty neat guy.</p>
+        </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p>This is the footer.</p>
+    </footer>
+</body>
+</html>
