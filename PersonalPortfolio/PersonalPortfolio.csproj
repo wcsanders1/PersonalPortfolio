@@ -93,6 +93,8 @@
     <Content Include="Content\normalize.css" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\keithSiteCellPhone.PNG" />
+    <Content Include="Images\keithSiteFullSize.PNG" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
