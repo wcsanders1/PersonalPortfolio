@@ -15,7 +15,7 @@
 
 .do-doing-done-container {
     margin: 0 5%;
-    max-width: 100%;
+    width: 100%;
 }
 
 .do-doing-done-container p {
@@ -30,7 +30,9 @@
 }
 
 .website-container {
-    width: 100%;
+    width: 90%;
+    box-shadow: inset 0 0 40px rgba(60,60,60, 1);
+    background-color: #DFE2DB;
 }
 
 .website-image-container {
@@ -47,8 +49,12 @@
     height: auto;
 }
 
+.cell-phone-size {
+    margin: 0 30%;
+}
+
 .screen-two-only {
-    display: none;
+    /*display: none;*/
 }
 
 
@@ -64,7 +70,7 @@
     }
 
     .do-doing-done-container {
-        margin: 0 3%;
+        margin: 0 5%;
     }
 
     #do-column,
@@ -80,6 +86,10 @@
         flex-basis: 100%;
     }
 
+    .website-container {
+        width: 100%;
+    }
+
     .screen-two-only {
         display: flex;
     }
@@ -87,6 +97,10 @@
     .website-image-container {
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .cell-phone-size {
+        margin: 0 5%;
     }
 }
 
