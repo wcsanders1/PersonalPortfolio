@@ -74,14 +74,14 @@ footer {
 
 
 /***************************************************************************
-        PAGE-SIZE 2
+        PAGE-SIZE 3
 ***************************************************************************/
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 40rem) {
     
     .left-header-line,
     .right-header-line {
-        width: calc(50% - 15em);
+        width: calc(50% - 15rem);
         align-self: center;
         visibility: visible;
     }
