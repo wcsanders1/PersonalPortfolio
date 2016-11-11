@@ -94,8 +94,12 @@
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\keithSiteCellPhone.PNG" />
+    <Content Include="Images\keithSiteCodeSnippet1.PNG" />
+    <Content Include="Images\keithSiteCodeSnippet2.PNG" />
     <Content Include="Images\keithSiteFullSize.PNG" />
     <Content Include="Images\recipeSiteCellPhone.PNG" />
+    <Content Include="Images\recipeSiteCodeSnippet1.PNG" />
+    <Content Include="Images\recipeSiteCodeSnippet2.PNG" />
     <Content Include="Images\recipeSiteFullSize.PNG" />
     <Content Include="Web.config" />
   </ItemGroup>
