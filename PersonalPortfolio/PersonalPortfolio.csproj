@@ -93,6 +93,7 @@
     <Content Include="Content\normalize.css" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\GitHub-Mark-Light-64px.png" />
     <Content Include="Images\keithSiteCellPhone.PNG" />
     <Content Include="Images\keithSiteCodeSnippet1.PNG" />
     <Content Include="Images\keithSiteCodeSnippet2.PNG" />

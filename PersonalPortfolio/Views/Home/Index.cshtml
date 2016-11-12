@@ -11,7 +11,7 @@
     </div>
     <div class="do-doing-done-container" id="done-column">
         <h3 class="content-header">What I've Done</h3>
-        <h4><a href="http://www.keithsandersmusic.com" target="_blank">keithsandersmusic.com</a></h4>
+        <h4 class="website-title-link"><a href="http://www.keithsandersmusic.com" target="_blank">keithsandersmusic.com</a></h4>
         <div class="website-container" id="keithsandersmusic-container">
             <div class="website-image-container">
                 <div class="headline-image-container cell-phone-size">
@@ -33,17 +33,17 @@
                     <div class="code-snippet-container">
                         <img class="code-snippet" src="~/Images/keithSiteCodeSnippet1.PNG" />
                     </div>
-                    <p>snippet explanation</p>
+                    <p>News about the musician's past and future shows is stored in a SQL database and passed as a model to the "news" partial view. The above razor code sorts the data according to date and places future events in one div. Past even events are placed in a separate div.</p>
                 </div>
                 <div class="code-snippet-and-explanation-container">
                     <div class="code-snippet-container">
                         <img class="code-snippet" src="~/Images/keithSiteCodeSnippet2.PNG" />
                     </div>
-                    <p>snippet explanation</p>
+                    <p>This function is called when the user clicks the "Show Song List" label on the home view. Using an array of data previously obtained from an AJAX call, this function lists each song, gives each list item an id corresponding to its place in the array, and binds each list item to a click event that uses the list item's id to determine which song to load into the audio player.</p>
                 </div>
             </div>
         </div>
-        <h4><a href="http://www.exotic-recipes.com" target="_blank">exotic-recipes.com</a></h4>
+        <h4 class="website-title-link"><a href="http://www.exotic-recipes.com" target="_blank">exotic-recipes.com</a></h4>
         <div class="website-container" id="exotic-recipes-container">
             <div class="website-image-container">
                 <div class="headline-image-container cell-phone-size">
@@ -57,7 +57,7 @@
             </div>
             <div class="website-description">
                 <h5>Description</h5>
-                <p>This site contains humorous faux exotic recipes. The "search" page allows the user to view the entire database of recipes, search the database by keyword, select particular recipes, view the details of the recipe such as ingredients and instructions, and to print a page of the details. I encourage you to visit the site, and have a hearty chuckle at the zany cuisine.</p>
+                <p>This site contains humorous faux exotic recipes. The "search" page, shown above, allows the user to view the entire database of recipes, search the database by keyword, select particular recipes, view the details of the recipe such as ingredients and instructions, and to print a page of the details. I encourage you to visit the site, and have a chuckle at the zany cuisine.</p>
             </div>
             <div class="overarching-code-snippet-container">
                 <h5>Code Snippets</h5>
@@ -65,13 +65,13 @@
                     <div class="code-snippet-container">
                         <img class="code-snippet" src="~/Images/recipeSiteCodeSnippet1.PNG" />
                     </div>
-                    <p>snippet explanation</p>
+                    <p>This function runs each time the user keys up in the search input box on the "search" page. It takes the value of the input and tries to match it with a recipe name. The function makes a suggestion if it finds a close match, or tells the user that no match exists.</p>
                 </div>
                 <div class="code-snippet-and-explanation-container">
                     <div class="code-snippet-container">
                         <img class="code-snippet" src="~/Images/recipeSiteCodeSnippet2.PNG" />
                     </div>
-                    <p>snippet explanation</p>
+                    <p>This fills a div with recipe ingredients stored in a SQL database. The variable "recipesDB" is an array of recipes obtained from an AJAX call made in another function.</p>
                 </div>
             </div>
         </div>

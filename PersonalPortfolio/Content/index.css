@@ -11,16 +11,31 @@
 
 .content-header {
     text-align: center;
+    color: #9494b8;
+    font-family: 'Kreon', serif;
+    font-size: 2rem;
 }
 
 .do-doing-done-container {
-    margin: 0 5%;
+    margin: 2rem 5%;
     width: 100%;
+    font-family: 'Marmelad', sans-serif;
 }
 
 .do-doing-done-container p {
-    margin: 0 5%;
+    margin: 1rem 0 3.5rem 0;
     max-width: 100%;
+    color: #009000;
+    font-size: 1.25rem;
+}
+
+#doing-column {
+    order: 1;
+}
+
+#do-column p,
+#doing-column p {
+    margin: 0 5%;
 }
 
 #done-column {
@@ -33,6 +48,23 @@
     width: 90%;
     box-shadow: inset 0 0 40px rgba(60,60,60, 1);
     background-color: #DFE2DB;
+    margin-bottom: 2rem;
+}
+
+.website-container p {
+    color: #000;
+}
+
+.website-container h5 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.website-title-link a {
+    font-size: 1.5rem;
+    font-family: 'Cardo', serif;
+    color: #ff0;
+    box-shadow: inset 0 -3px 0 0 #800000;
 }
 
 .website-image-container {
@@ -75,6 +107,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    align-self: flex-start;
 }
 
 .code-snippet-container {
@@ -198,20 +231,40 @@
 
     #do-column,
     #doing-column {
-        flex-basis: 30%;
+        flex-basis: 40%;
+    }
+
+    #do-column p,
+    #doing-column p {
+        margin: 0;
     }
 
     #doing-column {
         margin-left: auto;
+        order: 0;
     }
 
     #done-column {
         flex-basis: 100%;
+        margin-top: 2rem;
+    }
+
+    #done-column h3 {
+        font-size: 3rem;
+        margin-bottom: 0;
     }
 
     .website-container {
         width: 100%;
         min-height: 30rem;
+    }
+
+    .website-container h5 {
+        font-size: 1.5rem;
+    }
+
+    .website-title-link a {
+        font-size: 2.5rem;
     }
 
     .website-image-container {
@@ -247,7 +300,6 @@
 
     .overarching-code-snippet-container h5 {
         flex-basis: 100%;
-        text-align: center;
     }
 
     .code-snippet-and-explanation-container {
