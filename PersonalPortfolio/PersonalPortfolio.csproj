@@ -93,6 +93,7 @@
     <Content Include="Content\normalize.css" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\disk-icon.png" />
     <Content Include="Images\GitHub-Mark-Light-64px.png" />
     <Content Include="Images\keithSiteCellPhone.PNG" />
     <Content Include="Images\keithSiteCodeSnippet1.PNG" />
@@ -102,6 +103,9 @@
     <Content Include="Images\recipeSiteCodeSnippet1.PNG" />
     <Content Include="Images\recipeSiteCodeSnippet2.PNG" />
     <Content Include="Images\recipeSiteFullSize.PNG" />
+    <Content Include="Images\selfie.jpg" />
+    <Content Include="Images\selfie2.jpg" />
+    <Content Include="Images\selfie3.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

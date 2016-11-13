@@ -14,6 +14,7 @@
     color: #9494b8;
     font-family: 'Kreon', serif;
     font-size: 2rem;
+    margin-top: 0;
 }
 
 .do-doing-done-container {
@@ -26,11 +27,12 @@
     margin: 1rem 0 3.5rem 0;
     max-width: 100%;
     color: #009000;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 #doing-column {
     order: 1;
+    margin-top: 0;
 }
 
 #do-column p,
@@ -42,6 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .website-container {
@@ -57,14 +60,18 @@
 
 .website-container h5 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .website-title-link a {
     font-size: 1.5rem;
-    font-family: 'Cardo', serif;
+    font-family: 'Kreon', serif;
     color: #ff0;
     box-shadow: inset 0 -3px 0 0 #800000;
+}
+
+.website-image {
+    box-shadow: 5px 5px 5px #888888;
 }
 
 .website-image-container {
@@ -114,6 +121,7 @@
     max-height: 20rem;
     max-width: 100%;
     overflow: auto;
+    border: 5px double #888; 
 }
 
 .code-snippet-container img {
@@ -229,6 +237,14 @@
         margin: 0 5%;
     }
 
+    .do-doing-done-container p {
+        font-size: 1.5rem;
+    }
+
+    .website-container h5 {
+        font-size: 1.75rem;
+    }
+
     #do-column,
     #doing-column {
         flex-basis: 40%;
@@ -246,7 +262,7 @@
 
     #done-column {
         flex-basis: 100%;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 
     #done-column h3 {
@@ -270,6 +286,10 @@
     .website-image-container {
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .website-image {
+        box-shadow: 10px 10px 5px #888888;
     }
 
     .cell-phone-size,
