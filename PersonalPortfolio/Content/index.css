@@ -1,6 +1,11 @@
 ﻿/***************************************************************************
         CELL-PHONE SIZE
 ***************************************************************************/
+#page-size {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
 
 #content-container {
     width: 100%;
@@ -63,6 +68,11 @@
     font-size: 1.5rem;
 }
 
+.website-title-link {
+    text-align: center;
+    max-width: 80%;
+}
+
 .website-title-link a {
     font-size: 1.5rem;
     font-family: 'Kreon', serif;
@@ -92,6 +102,13 @@
 .full-screen-size,
 .full-screen-size img {
     width: 15rem;
+}
+
+#maze-image {
+    width: 90%;
+    height: 100%;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px #888888; 
 }
 
 .website-description {
@@ -135,6 +152,10 @@
 ***************************************************************************/
 
 @media screen and (min-width: 25rem) {
+    #page-size {
+        z-index: 2;
+    }
+    
     .cell-phone-size,
     .cell-phone-size img {
         width: 8rem;
@@ -154,6 +175,9 @@
 ***************************************************************************/
 
 @media screen and (min-width: 30rem) {
+    #page-size {
+        z-index: 3;
+    }
     .cell-phone-size,
     .cell-phone-size img {
         width: 10rem;
@@ -173,6 +197,10 @@
 ***************************************************************************/
 
 @media screen and (min-width: 40rem) {
+    #page-size {
+        z-index: 4;
+    }
+
     .cell-phone-size,
     .cell-phone-size img {
         width: 12rem;
@@ -192,6 +220,10 @@
 ***************************************************************************/
 
 @media screen and (min-width: 50rem) {
+    #page-size {
+        z-index: 5;
+    }
+
     .cell-phone-size,
     .cell-phone-size img {
         width: 15rem;
@@ -210,6 +242,10 @@
 ***************************************************************************/
 
 @media screen and (min-width: 60rem) {
+    #page-size {
+        z-index: 6;
+    }
+
     .cell-phone-size,
     .cell-phone-size img {
         width: 17rem;
@@ -228,6 +264,10 @@
 ***************************************************************************/
 
 @media screen and (min-width: 75rem){
+    #page-size {
+        z-index: 7;
+    }
+
     #content-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -239,10 +279,6 @@
 
     .do-doing-done-container p {
         font-size: 1.5rem;
-    }
-
-    .website-container h5 {
-        font-size: 1.75rem;
     }
 
     #do-column,
@@ -342,7 +378,10 @@
 ***************************************************************************/
 
 @media screen and (min-width: 85rem) {
-    
+    #page-size {
+        z-index: 8;
+    }
+
     .website-container {
         min-height: 35rem;
     }
